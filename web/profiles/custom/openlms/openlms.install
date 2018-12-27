@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the "Open LMS" installation
+ * profile.
+ */
+
+/**
+ * Implements hook_install().
+ *
+ * Performs actions to set up the site for this profile.
+ *
+ * @see system_install()
+ *
+ * @throws \Drupal\Core\Extension\MissingDependencyException
+ */
+function openlms_install() {
+
+}

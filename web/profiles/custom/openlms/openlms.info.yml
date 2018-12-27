@@ -1,0 +1,74 @@
+name: Open LMS
+type: profile
+description: 'Install Open LMS with commonly used features pre-configured.'
+core: 8.x
+version: 8.x-1.0
+distribution:
+  name: "Open LMS"
+dependencies:
+  - auto_entitylabel
+  - automated_cron
+  - block
+  - block_content
+  - breakpoint
+  - calendar
+  - calendar_datetime
+  - ckeditor
+  - color
+  - comment
+  - config
+  - config_rewrite
+  - contact
+  - contextual
+  - ctools
+  - datetime
+  - datetime_range
+  - dblog
+  - dropzonejs
+  - dynamic_page_cache
+  - editor
+  - embed
+  - entity_reference_revisions
+  - field
+  - field_permissions
+  - field_ui
+  - file
+  - filter
+  - ggroup
+  - group
+  - h5p
+  - h5peditor
+  - help
+  - history
+  - image
+  - inline_entity_form
+  - link
+  - media
+  - menu_ui
+  - multiselect
+  - node
+  - options
+  - page_cache
+  - paragraphs
+  - path
+  - pathauto
+  - private_message
+  - quickedit
+  - rdf
+  - search
+  - shortcut
+  - system
+  - taxonomy
+  - text
+  - token
+  - token_filter
+  - toolbar
+  - tour
+  - update
+  - user
+  - views
+  - views_templates
+  - views_ui
+themes:
+  - bootstrap
+  - seven

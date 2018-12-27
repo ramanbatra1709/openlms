@@ -1,0 +1,34 @@
+{
+	"name": 		"openlms/openlms",
+	"description": 	"Open LMS profile",
+	"type": 		"drupal-profile",
+	"license": 		"GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "",
+			"role": ""
+		}
+	],
+    "repositories": [
+	    {
+	        "type": "composer",
+	        "url":  "https://packages.drupal.org/8"
+	    }
+	],
+    "require": {
+        "drupal/bootstrap": "^3.16"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "installer-paths": {
+            "web/core": 					["type:drupal-core"],
+            "web/libraries/{$name}": 		["type:drupal-library"],
+            "web/modules/contrib/{$name}": 	["type:drupal-module"],
+            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "web/themes/contrib/{$name}": 	["type:drupal-theme"],
+            "drush/Commands/{$name}": 		["type:drupal-drush"]
+        }
+    }
+}
+
